@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+</head>
+<body class="contact-page">
+       <nav>
+            <!-- Sidebar ul is for mobile -->
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Below is desktop menu -->
+            <ul>
+                <li><a href="#">logo</a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="#">About</a></li>
+                <li class="hideOnMobile"><a href="#">Projects</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <h1 class="form-title">Get In Touch!</h1>
+        <div class="contact-form">
+            <form class="content-one">
+                <h2 class="message-title">Send A Message</h2>
+                <div class="label-container">
+                    <label>First Name</label><br>
+                    <input class="form-inputs" type="text" required>
+                </div>
+                <div class="label-container">
+                    <label>Last Name</label><br>
+                    <input class="form-inputs" type="text" required><br>
+                </div>
+                <div class="label-container">
+                    <label>Email</label><br>
+                    <input class="form-inputs" type="email" required>
+                </div>
+                <div class="label-container">
+                <label>Mobile</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                </div>
+                <textarea></textarea>
+            </form>
+        </div>
+        <div class="contact-info">
+            
+        </div>
+        
+    </div>
+    <script src="kiwanis.js"></script>
+    </body>
+    </html>
