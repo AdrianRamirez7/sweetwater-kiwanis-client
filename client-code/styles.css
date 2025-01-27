@@ -19,7 +19,7 @@ header a {
 header {
     padding: 0 20px;
     background-color: navy;
-    height: 60px;
+    height: 77px;
     display: flex;
     justify-content: space-between;
 }
@@ -121,17 +121,6 @@ ul li:hover {
     color: #0436ff;
   }
 
-  /* @media only screen and (max-width: 600px) {
-    header nav {
-        display: none;
-    }
-
-    #hamburger-icon {
-        display: block;
-    }
-
-  } */
-
   @media only screen and (max-width: 600px) {
     header nav {
         display: none; /* Hide the desktop menu */
@@ -169,10 +158,64 @@ ul li:hover {
 }
 
 
-/*End Mobile Menu*/
+/*========= End Mobile Menu =============*/
+
+/*=========Home Page Mobile =============*/
+
+.home-images {
+    background-color: #0e3959;
+    width: 100vw;
+    height: 40vh;
+}
+
+.home-images > p {
+    
+}
+
+/*=========End Home Page Mobile =============*/
 
 
-/* Contact Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== Contact Page ==============*/
 .contact-page {
     background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%,  #03a9f5 100%);
 
@@ -358,7 +401,7 @@ ul li:hover {
     height: 100%;
 }
 
-/*Respnsive Design */
+/*Respnsive Design For Contact */
 
 @media (max-width: 991px) {
     .contact-page {
