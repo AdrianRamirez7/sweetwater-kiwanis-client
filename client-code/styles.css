@@ -40,7 +40,7 @@ nav li {
     color: aquamarine;
 }
 
-ul {
+.home__nav-links, .contact__nav-links {
     list-style: none;
     height: 100%;
     display: flex;
@@ -58,7 +58,7 @@ ul li {
     margin-left: 40px;
 }
 
-ul li:hover {
+.contact__nav-links .contact_nav-title:hover, .home__nav-links .home_nav-title:hover {
     transform: scale(1.5);
     transition: 0.3s;
 }
@@ -383,12 +383,14 @@ ul li:hover {
     font-size: 1.1em;
 }
 
-.sci {
+.contact_social-icons {
     margin-top: 40px;
     display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
-.sci li a{
+.contact_social-icons li a {
     font-size: 2em;
 }
 
